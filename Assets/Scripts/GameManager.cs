@@ -2,8 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
+using Unity.Hierarchy;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
@@ -21,13 +23,12 @@ public class GameManager : MonoBehaviour
     public List<GameObject> stickers;
     public List<GameObject> trinkets;
 
-    [Header("Cutscenes")]
-    public Animator animator;
-    public Dialogue dialogueScript;
-
     [HideInInspector] public int day = 0;
     [HideInInspector] public Dictionary<int, DialogueInfo> dialogue = new();
     [HideInInspector] public List<List<int>> phonesToSteal = new();
+    [HideInInspector] public Dialogue dialogueScript;
+    [HideInInspector] public Animator animator;
+
 
     void Awake()
     {
@@ -39,7 +40,8 @@ public class GameManager : MonoBehaviour
         else
             Destroy(gameObject);
 
-        //dialogue = JsonConvert.DeserializeObject<Dictionary<int, DialogueInfo>>(Resources.Load<TextAsset>("dialogue").text);
+        dialogue = JsonConvert.DeserializeObject<Dictionary<int, DialogueInfo>>(Resources.Load<TextAsset>("dialogue").text);
+
         Material[] unsortedMaterials = Resources.LoadAll<Material>("PhoneMaterials");
         for (int i = 0; i < optionsPerTrait; i++)
         {
@@ -95,6 +97,7 @@ public class GameManager : MonoBehaviour
         var index = phonesToSteal.FindIndex(p => p.SequenceEqual(phone));
         if (index >= 0)
         {
+            phonesToSteal.RemoveAt(index);
             animator.SetTrigger("phoneDescribeEnd");
             dialogueScript.PlayDialogue(2);
         }
@@ -107,6 +110,18 @@ public class GameManager : MonoBehaviour
 
     public void PlayDialogue(int level)
     {
-        dialogueScript.PlayDialogue();
+        dialogueScript.PlayDialogue(level);
+    }
+
+    public void PhoneDescribeStart()
+    {
+        animator.SetTrigger("phoneDescribeStart");
+        Debug.Log("START");
+    }
+
+    public void DayEnd()
+    {
+        day++;
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
     }
 }

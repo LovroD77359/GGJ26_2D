@@ -1,0 +1,30 @@
+{
+    "0": {
+        "startLines": [
+            "Hello! Tell about phone"
+        ],
+        "repeatLines": [
+            "Cmon..."
+        ],
+        "endLines": [
+            "Alright, bye"
+        ],
+        "interruptLines": [
+            "Hello?"
+        ]
+    },
+    "1": {
+        "startLines": [
+            "Hello! Tell about phone"
+        ],
+        "repeatLines": [
+            "Cmon..."
+        ],
+        "endLines": [
+            "Alright, bye"
+        ],
+        "interruptLines": [
+            "Hello?"
+        ]
+    }
+}
