@@ -57,6 +57,11 @@ public class GameManager : MonoBehaviour
             phonesToSteal.Add(phone);
         }
 
+        LogPhones();
+    }
+
+    public void LogPhones()
+    {
         // Logganje
         foreach (List<int> phone in phonesToSteal)
         {
