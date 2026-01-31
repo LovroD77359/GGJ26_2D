@@ -1,0 +1,1317 @@
+fileFormatVersion: 2
+guid: 54f8053f126eac742b0fe84a2e6af7f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9213700235189040331
+    second: textures circle_0
+  - first:
+      213: -6521694116572992555
+    second: textures circle_1
+  - first:
+      213: 1439345463080044029
+    second: textures circle_2
+  - first:
+      213: 2932528984581969091
+    second: textures circle_3
+  - first:
+      213: 4454495111529849689
+    second: textures circle_4
+  - first:
+      213: 6414604019909313878
+    second: textures circle_5
+  - first:
+      213: -1835480783168815459
+    second: textures circle_6
+  - first:
+      213: -7393932287468261927
+    second: textures circle_7
+  - first:
+      213: -6012465175073421675
+    second: textures circle_8
+  - first:
+      213: -2214538589318221518
+    second: textures circle_9
+  - first:
+      213: 8760525251234873814
+    second: textures circle_10
+  - first:
+      213: 6488080346814260769
+    second: textures circle_11
+  - first:
+      213: -4177938008080881670
+    second: textures circle_12
+  - first:
+      213: -4714381007847904864
+    second: textures circle_13
+  - first:
+      213: 5252064266861832583
+    second: textures circle_14
+  - first:
+      213: 4474196722758862601
+    second: textures circle_15
+  - first:
+      213: 5007198190056961970
+    second: textures circle_16
+  - first:
+      213: 846963786191585272
+    second: textures circle_17
+  - first:
+      213: -9161889768959656364
+    second: textures circle_18
+  - first:
+      213: 8591296433596943779
+    second: textures circle_19
+  - first:
+      213: 9088556724890243028
+    second: textures circle_20
+  - first:
+      213: 3620931935012354452
+    second: textures circle_21
+  - first:
+      213: -3701702831753570900
+    second: textures circle_22
+  - first:
+      213: 5844361626386668381
+    second: textures circle_23
+  - first:
+      213: 1678244104822314877
+    second: textures circle_24
+  - first:
+      213: -5466938852216465622
+    second: textures circle_25
+  - first:
+      213: -1866402508332996926
+    second: textures circle_26
+  - first:
+      213: -1289932466683846991
+    second: textures circle_27
+  - first:
+      213: -2972296962207511723
+    second: textures circle_28
+  - first:
+      213: 6591110693497362136
+    second: textures circle_29
+  - first:
+      213: 7088921060725124173
+    second: textures circle_30
+  - first:
+      213: -1275732530933992650
+    second: textures circle_31
+  - first:
+      213: -4380342160300325939
+    second: textures circle_32
+  - first:
+      213: 9067495132238113367
+    second: textures circle_33
+  - first:
+      213: 4796721896960123143
+    second: textures circle_34
+  - first:
+      213: -2392776086110587234
+    second: textures circle_35
+  - first:
+      213: -8583291526061988909
+    second: textures circle_36
+  - first:
+      213: -3387199261825880349
+    second: textures circle_37
+  - first:
+      213: 4943661632839899544
+    second: textures circle_38
+  - first:
+      213: -407518351731503127
+    second: textures circle_39
+  - first:
+      213: 3195215620269149404
+    second: textures circle_40
+  - first:
+      213: 1357394379765092858
+    second: textures circle_41
+  - first:
+      213: 8904024414706896240
+    second: textures circle_42
+  - first:
+      213: -7501243640321873966
+    second: textures circle_43
+  - first:
+      213: -7699071716671620007
+    second: textures circle_44
+  - first:
+      213: -892380743863800499
+    second: textures circle_45
+  - first:
+      213: -4766163448873285382
+    second: textures circle_46
+  - first:
+      213: 3053236004143407366
+    second: textures circle_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: textures circle_0
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 942
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bcf9ec37c522080800000000000000
+      internalID: -9213700235189040331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_1
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 942
+        width: 85
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db69ef11c94e75a0800000000000000
+      internalID: -6521694116572992555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_2
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 942
+        width: 87
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5c4fb921599f310800000000000000
+      internalID: 1439345463080044029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_3
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 942
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c49b83039f62b820800000000000000
+      internalID: 2932528984581969091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 856
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9536378f3bb81dd30800000000000000
+      internalID: 4454495111529849689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_5
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 856
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655cc7dbe50450950800000000000000
+      internalID: 6414604019909313878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_6
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 856
+        width: 87
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9eba27d3ff0786e0800000000000000
+      internalID: -1835480783168815459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_7
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 856
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dda92062c9736990800000000000000
+      internalID: -7393932287468261927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 769
+        width: 87
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596875757ce6f8ca0800000000000000
+      internalID: -6012465175073421675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_9
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 769
+        width: 85
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231fa4ad2e06441e0800000000000000
+      internalID: -2214538589318221518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_10
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 769
+        width: 87
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1c1bdfc43a39970800000000000000
+      internalID: 8760525251234873814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_11
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 683
+        width: 89
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126ae0a33ba4a0a50800000000000000
+      internalID: 6488080346814260769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_12
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 769
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af76cbe648bf406c0800000000000000
+      internalID: -4177938008080881670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 683
+        width: 86
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9a0638377239eb0800000000000000
+      internalID: -4714381007847904864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_14
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 683
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78962d3cf9413e840800000000000000
+      internalID: 5252064266861832583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_15
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 683
+        width: 87
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907424bc63a871e30800000000000000
+      internalID: 4474196722758862601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_16
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 597
+        width: 86
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7f25e79342d7540800000000000000
+      internalID: 5007198190056961970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_17
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 598
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffb19d731501cb00800000000000000
+      internalID: 846963786191585272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_18
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 598
+        width: 87
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ebfd10ccd6ad080800000000000000
+      internalID: -9161889768959656364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_19
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 596
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad40a4769a6a3770800000000000000
+      internalID: 8591296433596943779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 510
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df0214203a012e70800000000000000
+      internalID: 9088556724890243028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 510
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499774e0962204230800000000000000
+      internalID: 3620931935012354452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_22
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 510
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5554113e8e0acc0800000000000000
+      internalID: -3701702831753570900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_23
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 510
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b93b73fe75b1150800000000000000
+      internalID: 5844361626386668381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_24
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 425
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77d3522f125a4710800000000000000
+      internalID: 1678244104822314877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_25
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 425
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a271bd834188124b0800000000000000
+      internalID: -5466938852216465622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_26
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 425
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6e9eaaec43916e0800000000000000
+      internalID: -1866402508332996926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_27
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 425
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bed013814d391ee0800000000000000
+      internalID: -1289932466683846991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 342
+        width: 85
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b06a829a740c6d0800000000000000
+      internalID: -2972296962207511723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_29
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 343
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d650392144587b50800000000000000
+      internalID: 6591110693497362136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_30
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 342
+        width: 87
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c6e416528e06260800000000000000
+      internalID: 7088921060725124173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_31
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 343
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633f441b500bb4ee0800000000000000
+      internalID: -1275732530933992650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_32
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 256
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3c1a46306e533c0800000000000000
+      internalID: -4380342160300325939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_33
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 256
+        width: 79
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ae2a7f7c636dd70800000000000000
+      internalID: 9067495132238113367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_34
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 256
+        width: 81
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70165a2b621619240800000000000000
+      internalID: 4796721896960123143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_35
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 256
+        width: 79
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e963450c3d62bced0800000000000000
+      internalID: -2392776086110587234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 170
+        width: 81
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3647155d502e880800000000000000
+      internalID: -8583291526061988909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_37
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 170
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee276fa7304ef0d0800000000000000
+      internalID: -3387199261825880349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_38
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 170
+        width: 81
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899562bff0a6b9440800000000000000
+      internalID: 4943661632839899544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_39
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 170
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef479dd734385af0800000000000000
+      internalID: -407518351731503127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_40
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 84
+        width: 81
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc0cea7dafa75c20800000000000000
+      internalID: 3195215620269149404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_41
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 84
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af192022ffe66d210800000000000000
+      internalID: 1357394379765092858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_42
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 84
+        width: 81
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d82069703719b70800000000000000
+      internalID: 8904024414706896240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_43
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 84
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7e4f407aa36e790800000000000000
+      internalID: -7501243640321873966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_44
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cf78ba017672590800000000000000
+      internalID: -7699071716671620007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_45
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 0
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d69950170ad93f0800000000000000
+      internalID: -892380743863800499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_46
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 0
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af80570789f2bddb0800000000000000
+      internalID: -4766163448873285382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: textures circle_47
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 0
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601a66218f54f5a20800000000000000
+      internalID: 3053236004143407366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
