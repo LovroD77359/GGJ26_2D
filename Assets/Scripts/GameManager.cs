@@ -13,8 +13,7 @@ public class GameManager : MonoBehaviour
     public int optionsPerTrait = 5;
 
     [Header("Traits")]
-    public List<Color> colors;
-    public List<Texture> patterns;
+    public List<List<Material>> materials = new();
     public List<GameObject> damages;
     public List<GameObject> stickers;
     public List<GameObject> trinkets;

@@ -1,28 +1,36 @@
+using NUnit.Framework;
 using UnityEngine;
 
-public class MemoryActivate : MonoBehaviour
+public class Memory : MonoBehaviour
 {
-    public GameObject Memory;
+    public GameObject memory;
     public float duration = 10f;
 
     private float timer = 0f;
     private bool isActive = false;
     private bool isFirstTime = true;
 
+    void Start()
+    {
+        UpdateMemory();
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && !isActive)
         {
-            Memory.SetActive(true);
-            isActive = true;
-            if(!isFirstTime)            
+            if (!isFirstTime)
                 RandomizePhone();
+            UpdateMemory();
+
+            memory.SetActive(true);
+            isActive = true;
             isFirstTime = false;
         }
         if (isActive) timer += Time.deltaTime;
         if (timer >= duration)
         {
-            Memory.SetActive(false);
+            memory.SetActive(false);
             isActive = false;
             timer = 0f;
         }
@@ -40,5 +48,31 @@ public class MemoryActivate : MonoBehaviour
 
         Debug.Log("Randomized phone " + randomPhone + " trait " + randomTrait);
         GameManager.GM.LogPhones();
+    }
+
+    void UpdateMemory()
+    {
+        for (int i = 0; i < GameManager.GM.numberOfDays; i++)
+        {
+            Transform phone = transform.GetChild(i);
+            for (int j = 0; j < GameManager.GM.numberOfTraits; j++)
+            {
+                Transform trait = phone.GetChild(j);
+                if (trait.name == "Color" || trait.name == "Pattern")
+                {
+                    phone.GetComponent<MeshRenderer>().material = GameManager.GM.materials[GameManager.GM.phonesToSteal[i][0]][GameManager.GM.phonesToSteal[i][1]];
+                }
+                else
+                {
+                    for (int k = 0; k < trait.childCount; k++)
+                    {
+                        if (k == GameManager.GM.phonesToSteal[i][j])
+                            trait.GetChild(k).gameObject.SetActive(true);
+                        else
+                            trait.GetChild(k).gameObject.SetActive(false);
+                    }
+                }
+            }
+        }
     }
 }
