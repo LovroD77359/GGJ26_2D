@@ -8,9 +8,7 @@ using UnityEngine.InputSystem;
 
 public class Dialogue : MonoBehaviour
 {
-    public string charKey;
     private float repeatDialogueInterval = 30;
-    public GameObject dialogueCanvas;
     public GameObject dialogueBox;
     public TextMeshProUGUI textbox;
     public DialogueInfo dialogueInfo;
@@ -28,7 +26,7 @@ public class Dialogue : MonoBehaviour
 
     void Update()
     {
-        if (dialogueLevel == 1 && Time.time - repeatDialogueTimestamp >= repeatDialogueInterval)
+        if (dialogueLevel == 1 && Time.time - repeatDialogueTimestamp >= repeatDialogueInterval && !playingDialogue)
             PlayDialogue();
     }
 
