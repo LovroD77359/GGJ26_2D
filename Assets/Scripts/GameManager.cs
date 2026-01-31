@@ -17,11 +17,6 @@ public class GameManager : MonoBehaviour
     public int numberOfTraits = 5;
     public int optionsPerTrait = 5;
 
-    [Header("Traits")]
-    public List<GameObject> damages;
-    public List<GameObject> stickers;
-    public List<GameObject> trinkets;
-
     [HideInInspector] public int day = 0;
     [HideInInspector] public Dictionary<int, DialogueInfo> dialogue = new();
     [HideInInspector] public List<List<Material>> materials = new();
@@ -55,6 +50,13 @@ public class GameManager : MonoBehaviour
     }
 
     void Start()
+    {
+        Init();
+        day = 0;
+        phonesToSteal.Clear();
+    }
+
+    public void Init()
     {
         // Phone generation
         List<List<int>> traitsTaken = new();
@@ -98,11 +100,11 @@ public class GameManager : MonoBehaviour
         if (index >= 0)
         {
             phonesToSteal.RemoveAt(index);
-            animator.SetTrigger("phoneDescribeEnd");
+            animator.SetTrigger("win");
         }
         else
         {
-            animator.SetTrigger("phoneDescribeEnd");
+            animator.SetTrigger("lose");
         }
     }
 
@@ -114,7 +116,6 @@ public class GameManager : MonoBehaviour
     public void PhoneDescribeStart()
     {
         animator.SetTrigger("phoneDescribeStart");
-        Debug.Log("START");
     }
 
     public void DayEnd()
