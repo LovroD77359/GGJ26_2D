@@ -4,8 +4,11 @@ using UnityEngine.SceneManagement;
 public class Pause : MonoBehaviour
 {
     public GameObject pauseMenu;
-
-    
+    public AudioSource backgroundMusic;
+    private void Start()
+    {
+        backgroundMusic.Play();
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
