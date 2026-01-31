@@ -1531,6 +1531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1855a4892e6b764d9b2c19e5c72c44a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  traitIndex: 2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3079,6 +3080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1855a4892e6b764d9b2c19e5c72c44a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  traitIndex: 3
 --- !u!1 &1013609535
 GameObject:
   m_ObjectHideFlags: 0
@@ -3617,6 +3619,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1190334426}
   m_CullTransparentMesh: 1
+--- !u!1 &1201629395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1201629397}
+  - component: {fileID: 1201629396}
+  m_Layer: 0
+  m_Name: Game manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1201629396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201629395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdfb3366d2cd0c84a9564124c8cb85da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfDays: 5
+  numberOfTraits: 5
+  optionsPerTrait: 5
+  colors: []
+  patterns: []
+  damages: []
+  stickers: []
+  trinkets: []
+  day: 0
+--- !u!4 &1201629397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201629395}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1263711221
 GameObject:
   m_ObjectHideFlags: 0
@@ -3900,7 +3955,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1283504035}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2092001524}
+        m_TargetAssemblyTypeName: CheckPhone, Assembly-CSharp
+        m_MethodName: Check
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1283504035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4299,6 +4366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1855a4892e6b764d9b2c19e5c72c44a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  traitIndex: 4
 --- !u!1 &1586228517
 GameObject:
   m_ObjectHideFlags: 0
@@ -5876,6 +5944,7 @@ GameObject:
   - component: {fileID: 2092001521}
   - component: {fileID: 2092001522}
   - component: {fileID: 2092001523}
+  - component: {fileID: 2092001524}
   m_Layer: 0
   m_Name: Phone stub
   m_TagString: Untagged
@@ -6011,6 +6080,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a9fe3b12410bc14eafaaf60f9d91b25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  traitIndex: 0
+  colors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
+  - {r: 0, g: 0, b: 1, a: 1}
+  - {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!114 &2092001523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6023,9 +6098,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb0f08cece65e634e9ee6b97aca5c80e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  traitIndex: 1
   patterns:
   - {fileID: 2800000, guid: 248eed8e61bb7ca4cbf85c8316d8add1, type: 3}
   - {fileID: 2800000, guid: d14aa02112fd2fa45a9770949faeacbd, type: 3}
+--- !u!114 &2092001524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092001516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71e8d21a8a2d72a4984a94e023c4dfdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  phone: 0000000000000000000000000000000000000000
 --- !u!1 &2102757605
 GameObject:
   m_ObjectHideFlags: 0
@@ -6102,3 +6191,4 @@ SceneRoots:
   - {fileID: 698856436}
   - {fileID: 24492726}
   - {fileID: 1013609539}
+  - {fileID: 1201629397}
