@@ -11,7 +11,6 @@ public class Dialogue : MonoBehaviour
     private float repeatDialogueInterval = 30;
     public GameObject dialogueBox;
     public TextMeshProUGUI textbox;
-    public DialogueInfo dialogueInfo;
     public event Action<int> OnDialogueEnded;
 
     private bool playingDialogue = false;
@@ -21,6 +20,8 @@ public class Dialogue : MonoBehaviour
 
     void Start()
     {
+        GameManager.GM.dialogueScript = this;
+        GameManager.GM.animator = GetComponent<Animator>();
         dialogue = GameManager.GM.dialogue[GameManager.GM.day];        
     }
 
@@ -39,16 +40,17 @@ public class Dialogue : MonoBehaviour
         {
             case 0:
                 StartCoroutine(PlayLines(dialogue.startLines));
-                dialogueLevel++;
                 break;
             case 1:
-                StartCoroutine(PlayLines(dialogueInfo.repeatLines));
+                StartCoroutine(PlayLines(dialogue.repeatLines));
+                repeatDialogueTimestamp = Time.time;
                 break;
             case 2:
-                StartCoroutine(PlayLines(dialogueInfo.endLines));
+                StartCoroutine(PlayLines(dialogue.endLines));
+                dialogueLevel = 2;
                 break;
             case 3:
-                StartCoroutine(PlayLines(dialogueInfo.interruptLines));
+                StartCoroutine(PlayLines(dialogue.interruptLines));
                 break;
         }
     }
@@ -73,6 +75,15 @@ public class Dialogue : MonoBehaviour
             }
             lineIndex++;
         }
+        Debug.Log(dialogueLevel);
+
+        if (dialogueLevel == 0)
+        {
+            GameManager.GM.PhoneDescribeStart();
+            dialogueLevel++;
+        }
+        else if (dialogueLevel == 2)
+            GameManager.GM.DayEnd();
 
         playingDialogue = false;
         dialogueBox.SetActive(false);
@@ -82,7 +93,7 @@ public class Dialogue : MonoBehaviour
 public class DialogueInfo
 {
     public List<string> startLines;
-    public List<string> endLines;
     public List<string> repeatLines;
+    public List<string> endLines;
     public List<string> interruptLines;
 }
