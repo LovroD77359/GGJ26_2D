@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager GM;
 
+    [Header("Numbers")]
     public int numberOfDays = 5;
     public int numberOfTraits = 5;
     public int optionsPerTrait = 5;
@@ -19,6 +20,10 @@ public class GameManager : MonoBehaviour
     public List<GameObject> damages;
     public List<GameObject> stickers;
     public List<GameObject> trinkets;
+
+    [Header("Cutscenes")]
+    public Animator animator;
+    public Dialogue dialogueScript;
 
     [HideInInspector] public int day = 0;
     [HideInInspector] public Dictionary<int, DialogueInfo> dialogue = new();
@@ -68,7 +73,6 @@ public class GameManager : MonoBehaviour
             }
             phonesToSteal.Add(phone);
         }
-
         LogPhones();
     }
 
@@ -90,8 +94,19 @@ public class GameManager : MonoBehaviour
     {
         var index = phonesToSteal.FindIndex(p => p.SequenceEqual(phone));
         if (index >= 0)
-            Debug.Log("Correct");
+        {
+            animator.SetTrigger("phoneDescribeEnd");
+            dialogueScript.PlayDialogue(2);
+        }
         else
-            Debug.Log("Incorrect");
+        {
+            animator.SetTrigger("phoneDescribeEnd");
+            dialogueScript.PlayDialogue(2);
+        }
+    }
+
+    public void PlayDialogue(int level)
+    {
+        dialogueScript.PlayDialogue();
     }
 }
