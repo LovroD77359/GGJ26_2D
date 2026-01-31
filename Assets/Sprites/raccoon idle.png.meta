@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -138,10 +138,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 47
-        height: 46
+        width: 48
+        height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -160,10 +160,10 @@ TextureImporter:
         serializedVersion: 2
         x: 48
         y: 0
-        width: 46
-        height: 46
+        width: 48
+        height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,10 +182,10 @@ TextureImporter:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 43
+        width: 48
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,10 +204,10 @@ TextureImporter:
         serializedVersion: 2
         x: 144
         y: 0
-        width: 38
+        width: 48
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,10 +226,10 @@ TextureImporter:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 34
+        width: 48
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,10 +248,10 @@ TextureImporter:
         serializedVersion: 2
         x: 240
         y: 0
-        width: 33
-        height: 46
+        width: 48
+        height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,10 +270,10 @@ TextureImporter:
         serializedVersion: 2
         x: 288
         y: 0
-        width: 33
-        height: 46
+        width: 48
+        height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,10 +292,10 @@ TextureImporter:
         serializedVersion: 2
         x: 336
         y: 0
-        width: 33
-        height: 46
+        width: 48
+        height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,10 +314,10 @@ TextureImporter:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 37
+        width: 48
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,10 +336,10 @@ TextureImporter:
         serializedVersion: 2
         x: 432
         y: 0
-        width: 41
+        width: 48
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,10 +358,10 @@ TextureImporter:
         serializedVersion: 2
         x: 480
         y: 0
-        width: 46
+        width: 48
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -381,9 +381,9 @@ TextureImporter:
         x: 528
         y: 0
         width: 48
-        height: 46
+        height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b6a6b2f6924bad14cbe61dfee46f6c57
     internalID: 0
     vertices: []
     indices: 
@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      raccoon idle_0: -6493644684456984771
+      raccoon idle_1: 74032114147241764
+      raccoon idle_10: 764959453252395468
+      raccoon idle_11: -202178180758948999
+      raccoon idle_2: -3099100447831855357
+      raccoon idle_3: -9215589133499685691
+      raccoon idle_4: 976429656062846323
+      raccoon idle_5: 8357179990671514692
+      raccoon idle_6: -229147443037084770
+      raccoon idle_7: -4696207782094165252
+      raccoon idle_8: 2615779133631877021
+      raccoon idle_9: -5851181181098573711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -40,6 +40,7 @@ public class Dialogue : MonoBehaviour
         {
             case 0:
                 StartCoroutine(PlayLines(dialogue.startLines));
+                GameManager.GM.animator.SetTrigger("playerIdle");
                 break;
             case 1:
                 StartCoroutine(PlayLines(dialogue.repeatLines));
