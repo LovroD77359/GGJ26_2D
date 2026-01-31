@@ -18,13 +18,13 @@ public class GameManager : MonoBehaviour
     public int optionsPerTrait = 5;
 
     [Header("Traits")]
-    public List<List<Material>> materials = new();
     public List<GameObject> damages;
     public List<GameObject> stickers;
     public List<GameObject> trinkets;
 
     [HideInInspector] public int day = 0;
     [HideInInspector] public Dictionary<int, DialogueInfo> dialogue = new();
+    [HideInInspector] public List<List<Material>> materials = new();
     [HideInInspector] public List<List<int>> phonesToSteal = new();
     [HideInInspector] public Dialogue dialogueScript;
     [HideInInspector] public Animator animator;
@@ -99,12 +99,10 @@ public class GameManager : MonoBehaviour
         {
             phonesToSteal.RemoveAt(index);
             animator.SetTrigger("phoneDescribeEnd");
-            dialogueScript.PlayDialogue(2);
         }
         else
         {
             animator.SetTrigger("phoneDescribeEnd");
-            dialogueScript.PlayDialogue(2);
         }
     }
 

@@ -66,7 +66,6 @@ public class Dialogue : MonoBehaviour
         {
             string line = lines[lineIndex];
 
-            // Play line character by character, unless interrupted by Enter key
             textbox.text = "";
             foreach (char letter in line.ToCharArray())
             {
@@ -74,8 +73,8 @@ public class Dialogue : MonoBehaviour
                 yield return new WaitForSeconds(0.015f);
             }
             lineIndex++;
+            yield return new WaitForSeconds(Mathf.Max(2, textbox.text.Length / 5));
         }
-        Debug.Log(dialogueLevel);
 
         if (dialogueLevel == 0)
         {

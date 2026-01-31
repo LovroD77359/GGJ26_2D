@@ -21,7 +21,8 @@ public class Memory : MonoBehaviour
         if (isActive) timer += Time.deltaTime;
         if (timer >= duration)
         {
-            memory.SetActive(false);
+            GameManager.GM.animator.SetTrigger("memoryPanelDisappear");
+            GameManager.GM.PlayDialogue(3);
             isActive = false;
             timer = 0f;
         }
@@ -29,13 +30,13 @@ public class Memory : MonoBehaviour
 
     public void Remember()
     {
-        if (!isActive) return;  
+        if (isActive) return;  
 
         if (!isFirstTime)
             RandomizePhone();
         UpdateMemory();
 
-        memory.SetActive(true);
+        GameManager.GM.animator.SetTrigger("memoryPanelAppear");
         isActive = true;
         isFirstTime = false;
     }
