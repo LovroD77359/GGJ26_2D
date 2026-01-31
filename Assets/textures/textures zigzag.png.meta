@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      textures zigzag_0: 6908817248847869319
+      textures zigzag_1: 2259122921586262852
+      textures zigzag_10: -6334718475546564884
+      textures zigzag_11: -4293227793858562958
+      textures zigzag_2: 4658429044402913856
+      textures zigzag_3: -9078726839940971169
+      textures zigzag_4: 50482368166853672
+      textures zigzag_5: 5896936851796846337
+      textures zigzag_6: -1998235931845447768
+      textures zigzag_7: -1666821179571888991
+      textures zigzag_8: -3039116071354549107
+      textures zigzag_9: -6866660148123217088
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

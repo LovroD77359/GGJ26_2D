@@ -2334,7 +2334,96 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      textures triangle_0: 6559274371258157288
+      textures triangle_1: -719959754454163890
+      textures triangle_10: -4271368238112204334
+      textures triangle_11: 8419990228494633584
+      textures triangle_12: -5816486434207712262
+      textures triangle_13: 4553765755363852676
+      textures triangle_14: 4075430773646838801
+      textures triangle_15: -6845622842211381653
+      textures triangle_16: -6437066288861749382
+      textures triangle_17: -4472242885903697632
+      textures triangle_18: 1924935605306606000
+      textures triangle_19: 1940699894289167587
+      textures triangle_2: 74652560670026190
+      textures triangle_20: 7904038335589628879
+      textures triangle_21: -4117380444234846778
+      textures triangle_22: 3570711413165902429
+      textures triangle_23: -4497018303400813460
+      textures triangle_24: 7334336175847476827
+      textures triangle_25: -6615100741900144013
+      textures triangle_26: -6587990244357961158
+      textures triangle_27: -995460987851911384
+      textures triangle_28: -4822714790750037262
+      textures triangle_29: -7357601629123902541
+      textures triangle_3: 6361522607168938010
+      textures triangle_30: -1359029994384768497
+      textures triangle_31: -2463894800313945810
+      textures triangle_32: -4194925371455954717
+      textures triangle_33: 5328104840917100867
+      textures triangle_34: -4447498334404969710
+      textures triangle_35: -3578527586913907440
+      textures triangle_36: 3847097947076486049
+      textures triangle_37: 1513350645600825767
+      textures triangle_38: 3816251082829473346
+      textures triangle_39: -7524275626325548597
+      textures triangle_4: 5057029296904884810
+      textures triangle_40: -8753133456922447438
+      textures triangle_41: 6840508228430962860
+      textures triangle_42: -1275926424371283159
+      textures triangle_43: 8147945118342996174
+      textures triangle_44: 355569747248814309
+      textures triangle_45: -4661276446353497994
+      textures triangle_46: -1790639985411300340
+      textures triangle_47: 3754908732681038580
+      textures triangle_48: 7960131715860190730
+      textures triangle_49: -5001176124569626887
+      textures triangle_5: 4712676681599474958
+      textures triangle_50: 8636452877368754790
+      textures triangle_51: -130772603542354615
+      textures triangle_52: -2904647650436215750
+      textures triangle_53: -5110651509744294185
+      textures triangle_54: -4671158682417350185
+      textures triangle_55: 2832533684670301821
+      textures triangle_56: 3626700555963244741
+      textures triangle_57: -3636940052040410253
+      textures triangle_58: 1638367839689499866
+      textures triangle_59: 2325953577535269215
+      textures triangle_6: -2855842905284597707
+      textures triangle_60: -5771255897388248780
+      textures triangle_61: -40215968263846181
+      textures triangle_62: -4559673917138316662
+      textures triangle_63: 5786723364062399113
+      textures triangle_64: 6509516167365694266
+      textures triangle_65: -6690015290955544504
+      textures triangle_66: -2341177640858352009
+      textures triangle_67: 5990536521871978545
+      textures triangle_68: -599634601381273278
+      textures triangle_69: 5387098593619752493
+      textures triangle_7: -7664637392002678533
+      textures triangle_70: -3076707580609257832
+      textures triangle_71: 4807760989621958278
+      textures triangle_72: -8599126572273582119
+      textures triangle_73: -8772895597594718828
+      textures triangle_74: 7366439830175511938
+      textures triangle_75: 7169521289753439304
+      textures triangle_76: -7262982111208022002
+      textures triangle_77: -1873674898682939763
+      textures triangle_78: 281065003430471294
+      textures triangle_79: 132419661102401879
+      textures triangle_8: -7811817005404003334
+      textures triangle_80: 3880148713789021441
+      textures triangle_81: -6561311274910060596
+      textures triangle_82: 5106882724943223258
+      textures triangle_83: 8062206620896564590
+      textures triangle_84: 3056739520558604564
+      textures triangle_85: 4522672254007581921
+      textures triangle_86: 8805199793540496271
+      textures triangle_87: 6024173469685684994
+      textures triangle_88: 3430434330702947513
+      textures triangle_9: -2704438892298199766
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,4 +1,4 @@
-using System.Collections;
+using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 
@@ -49,15 +49,13 @@ public class Memory : MonoBehaviour
 
     void UpdateMemory()
     {
-        Debug.Log("UPDATING");
         for (int i = 0; i < GameManager.GM.numberOfDays; i++)
         {
             Transform phone = memoryPhones.transform.GetChild(i);
-            phone.gameObject.SetActive(false);
             for (int j = 0; j < GameManager.GM.numberOfTraits; j++)
             {
                 Transform trait = phone.GetChild(j);
-                if (trait.name == "Color" || trait.name == "Pattern")
+                if (trait.name == "Color")
                 {
                     phone.GetComponent<MeshRenderer>().material = GameManager.GM.materials[GameManager.GM.phonesToSteal[i][0]][GameManager.GM.phonesToSteal[i][1]];
                 }
@@ -72,14 +70,6 @@ public class Memory : MonoBehaviour
                     }
                 }
             }
-            StartCoroutine(WaitAndActivate(phone.gameObject));
         }
-    }
-
-    IEnumerator WaitAndActivate(GameObject phone)
-    {
-        yield return null;
-        Debug.Log(phone.GetComponent<MeshRenderer>().material.name);
-        phone.SetActive(true);
     }
 }

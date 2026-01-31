@@ -1309,7 +1309,55 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      textures circle_0: -9213700235189040331
+      textures circle_1: -6521694116572992555
+      textures circle_10: 8760525251234873814
+      textures circle_11: 6488080346814260769
+      textures circle_12: -4177938008080881670
+      textures circle_13: -4714381007847904864
+      textures circle_14: 5252064266861832583
+      textures circle_15: 4474196722758862601
+      textures circle_16: 5007198190056961970
+      textures circle_17: 846963786191585272
+      textures circle_18: -9161889768959656364
+      textures circle_19: 8591296433596943779
+      textures circle_2: 1439345463080044029
+      textures circle_20: 9088556724890243028
+      textures circle_21: 3620931935012354452
+      textures circle_22: -3701702831753570900
+      textures circle_23: 5844361626386668381
+      textures circle_24: 1678244104822314877
+      textures circle_25: -5466938852216465622
+      textures circle_26: -1866402508332996926
+      textures circle_27: -1289932466683846991
+      textures circle_28: -2972296962207511723
+      textures circle_29: 6591110693497362136
+      textures circle_3: 2932528984581969091
+      textures circle_30: 7088921060725124173
+      textures circle_31: -1275732530933992650
+      textures circle_32: -4380342160300325939
+      textures circle_33: 9067495132238113367
+      textures circle_34: 4796721896960123143
+      textures circle_35: -2392776086110587234
+      textures circle_36: -8583291526061988909
+      textures circle_37: -3387199261825880349
+      textures circle_38: 4943661632839899544
+      textures circle_39: -407518351731503127
+      textures circle_4: 4454495111529849689
+      textures circle_40: 3195215620269149404
+      textures circle_41: 1357394379765092858
+      textures circle_42: 8904024414706896240
+      textures circle_43: -7501243640321873966
+      textures circle_44: -7699071716671620007
+      textures circle_45: -892380743863800499
+      textures circle_46: -4766163448873285382
+      textures circle_47: 3053236004143407366
+      textures circle_5: 6414604019909313878
+      textures circle_6: -1835480783168815459
+      textures circle_7: -7393932287468261927
+      textures circle_8: -6012465175073421675
+      textures circle_9: -2214538589318221518
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
