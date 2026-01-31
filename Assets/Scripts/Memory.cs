@@ -1,19 +1,16 @@
+using System.Collections;
 using NUnit.Framework;
 using UnityEngine;
 
 public class Memory : MonoBehaviour
 {
     public GameObject memory;
+    public Transform memoryPhones;
     public float duration = 10f;
 
     private float timer = 0f;
     private bool isActive = false;
     private bool isFirstTime = true;
-
-    void Start()
-    {
-        UpdateMemory();
-    }
 
     void Update()
     {
@@ -52,9 +49,11 @@ public class Memory : MonoBehaviour
 
     void UpdateMemory()
     {
+        Debug.Log("UPDATING");
         for (int i = 0; i < GameManager.GM.numberOfDays; i++)
         {
-            Transform phone = transform.GetChild(i);
+            Transform phone = memoryPhones.transform.GetChild(i);
+            phone.gameObject.SetActive(false);
             for (int j = 0; j < GameManager.GM.numberOfTraits; j++)
             {
                 Transform trait = phone.GetChild(j);
@@ -73,6 +72,14 @@ public class Memory : MonoBehaviour
                     }
                 }
             }
+            StartCoroutine(WaitAndActivate(phone.gameObject));
         }
+    }
+
+    IEnumerator WaitAndActivate(GameObject phone)
+    {
+        yield return null;
+        Debug.Log(phone.GetComponent<MeshRenderer>().material.name);
+        phone.SetActive(true);
     }
 }

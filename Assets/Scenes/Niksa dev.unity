@@ -127,6 +127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166506965}
     m_Modifications:
+    - target: {fileID: 3092417452738885183, guid: 72efff10932c6884dba509d12065da18, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4849955143415183781, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -179,6 +183,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6501127609707967982, guid: 72efff10932c6884dba509d12065da18, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a3248d8b733dd4449bafc595e0341512, type: 2}
     - target: {fileID: 7441977270822091430, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_Name
       value: Phone stub (3)
@@ -426,6 +434,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166506965}
     m_Modifications:
+    - target: {fileID: 3092417452738885183, guid: 72efff10932c6884dba509d12065da18, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4849955143415183781, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -478,6 +490,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6501127609707967982, guid: 72efff10932c6884dba509d12065da18, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a3248d8b733dd4449bafc595e0341512, type: 2}
     - target: {fileID: 7441977270822091430, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_Name
       value: Phone stub (1)
@@ -711,9 +727,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2092001523}
-        m_TargetAssemblyTypeName: Cyclepatterns, Assembly-CSharp
-        m_MethodName: Previoustexture
+      - m_Target: {fileID: 2092001525}
+        m_TargetAssemblyTypeName: CycleMaterial, Assembly-CSharp
+        m_MethodName: PreviousPattern
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -769,6 +785,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166506965}
     m_Modifications:
+    - target: {fileID: 3092417452738885183, guid: 72efff10932c6884dba509d12065da18, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4849955143415183781, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -821,6 +841,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6501127609707967982, guid: 72efff10932c6884dba509d12065da18, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a3248d8b733dd4449bafc595e0341512, type: 2}
     - target: {fileID: 7441977270822091430, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_Name
       value: Phone stub (4)
@@ -1059,8 +1083,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2092001522}
-        m_TargetAssemblyTypeName: CycleColors, Assembly-CSharp
+      - m_Target: {fileID: 2092001525}
+        m_TargetAssemblyTypeName: CycleMaterial, Assembly-CSharp
         m_MethodName: NextColor
         m_Mode: 1
         m_Arguments:
@@ -1250,6 +1274,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166506965}
     m_Modifications:
+    - target: {fileID: 3092417452738885183, guid: 72efff10932c6884dba509d12065da18, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4849955143415183781, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -1302,6 +1330,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6501127609707967982, guid: 72efff10932c6884dba509d12065da18, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a3248d8b733dd4449bafc595e0341512, type: 2}
     - target: {fileID: 7441977270822091430, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_Name
       value: Phone stub
@@ -1561,8 +1593,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf7b49c49d1a4dd4d832eaaf07f0d8e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Memory: {fileID: 1939207890}
-  duration: 10
+  memory: {fileID: 1939207890}
+  memoryPhones: {fileID: 1166506965}
+  duration: 2
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2844,6 +2877,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166506965}
     m_Modifications:
+    - target: {fileID: 3092417452738885183, guid: 72efff10932c6884dba509d12065da18, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4849955143415183781, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -2896,6 +2933,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6501127609707967982, guid: 72efff10932c6884dba509d12065da18, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a3248d8b733dd4449bafc595e0341512, type: 2}
     - target: {fileID: 7441977270822091430, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_Name
       value: Phone stub (2)
@@ -3090,9 +3131,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2092001523}
-        m_TargetAssemblyTypeName: Cyclepatterns, Assembly-CSharp
-        m_MethodName: Nexttexture
+      - m_Target: {fileID: 2092001525}
+        m_TargetAssemblyTypeName: CycleMaterial, Assembly-CSharp
+        m_MethodName: NextPattern
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3516,8 +3557,6 @@ MonoBehaviour:
   numberOfDays: 5
   numberOfTraits: 5
   optionsPerTrait: 5
-  colors: []
-  patterns: []
   damages: []
   stickers: []
   trinkets: []
@@ -5066,8 +5105,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2092001522}
-        m_TargetAssemblyTypeName: CycleColors, Assembly-CSharp
+      - m_Target: {fileID: 2092001525}
+        m_TargetAssemblyTypeName: CycleMaterial, Assembly-CSharp
         m_MethodName: PreviousColor
         m_Mode: 1
         m_Arguments:
@@ -5234,7 +5273,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1939207891
 Transform:
   m_ObjectHideFlags: 0
@@ -5735,28 +5774,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074811198}
   m_CullTransparentMesh: 1
---- !u!114 &2092001522 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2150102287433489334, guid: 72efff10932c6884dba509d12065da18, type: 3}
-  m_PrefabInstance: {fileID: 6517715026699434141}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a9fe3b12410bc14eafaaf60f9d91b25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2092001523 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8674877267481756180, guid: 72efff10932c6884dba509d12065da18, type: 3}
-  m_PrefabInstance: {fileID: 6517715026699434141}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb0f08cece65e634e9ee6b97aca5c80e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2092001524 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7365481982081589837, guid: 72efff10932c6884dba509d12065da18, type: 3}
@@ -5766,6 +5783,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71e8d21a8a2d72a4984a94e023c4dfdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2092001525 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8925304624491463341, guid: 72efff10932c6884dba509d12065da18, type: 3}
+  m_PrefabInstance: {fileID: 6517715026699434141}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02bf595be5dd97e47807c6068c24c3b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2102757605

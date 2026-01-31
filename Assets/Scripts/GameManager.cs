@@ -1,8 +1,10 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
 using Unity.VisualScripting;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
@@ -31,12 +33,23 @@ public class GameManager : MonoBehaviour
         }
         else
             Destroy(gameObject);
+
+        //dialogue = JsonConvert.DeserializeObject<Dictionary<int, DialogueInfo>>(Resources.Load<TextAsset>("dialogue").text);
+        Material[] unsortedMaterials = Resources.LoadAll<Material>("PhoneMaterials");
+        for (int i = 0; i < optionsPerTrait; i++)
+        {
+            if (materials.Count <= i)
+                materials.Add(new List<Material>());
+            for (int j = 0; j < optionsPerTrait; j++)
+            {
+                materials[i].Add(unsortedMaterials[i * optionsPerTrait + j]);
+            }
+        }
     }
 
     void Start()
     {
-        //dialogue = JsonConvert.DeserializeObject<Dictionary<int, DialogueInfo>>(Resources.Load<TextAsset>("dialogue").text);
-
+        // Phone generation
         List<List<int>> traitsTaken = new();
         for (int i = 0; i < numberOfDays; i++)
         {
