@@ -14,15 +14,9 @@ public class Memory : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !isActive)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (!isFirstTime)
-                RandomizePhone();
-            UpdateMemory();
-
-            memory.SetActive(true);
-            isActive = true;
-            isFirstTime = false;
+            Remember();
         }
         if (isActive) timer += Time.deltaTime;
         if (timer >= duration)
@@ -31,6 +25,19 @@ public class Memory : MonoBehaviour
             isActive = false;
             timer = 0f;
         }
+    }
+
+    public void Remember()
+    {
+        if (!isActive) return;  
+
+        if (!isFirstTime)
+            RandomizePhone();
+        UpdateMemory();
+
+        memory.SetActive(true);
+        isActive = true;
+        isFirstTime = false;
     }
 
     void RandomizePhone()
