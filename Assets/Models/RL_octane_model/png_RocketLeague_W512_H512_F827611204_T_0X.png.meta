@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      png_RocketLeague_W512_H512_F827611204_T_0X_0: -7208338458769745820
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

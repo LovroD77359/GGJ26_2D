@@ -911,7 +911,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: e55e9952b0594824fa9ce0363762af3b, type: 3}
+  m_Texture: {fileID: 2800000, guid: fc7a295c8b5d12548bf42b90f1cc900c, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -3521,9 +3521,9 @@ MonoBehaviour:
   damages: []
   stickers: []
   trinkets: []
-  animator: {fileID: 1534857753}
-  dialogueScript: {fileID: 1534857757}
   day: 0
+  dialogueScript: {fileID: 1534857757}
+  animator: {fileID: 1534857753}
 --- !u!4 &1201629397
 Transform:
   m_ObjectHideFlags: 0

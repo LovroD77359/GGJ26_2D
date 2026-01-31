@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Octane_Chasis_Map_0: 3322791510046682670
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
