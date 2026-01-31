@@ -14,6 +14,7 @@ public class Dialogue : MonoBehaviour
     public GameObject dialogueBox;
     public TextMeshProUGUI textbox;
     public DialogueInfo dialogueInfo;
+    public event Action<int> OnDialogueEnded;
 
     private bool playingDialogue = false;
     private int dialogueLevel = 0;
