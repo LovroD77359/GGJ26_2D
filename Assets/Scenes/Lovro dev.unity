@@ -5550,10 +5550,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4849955143415183781, guid: 72efff10932c6884dba509d12065da18, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5156891965918713027, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -5562,10 +5558,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6501127609707967982, guid: 72efff10932c6884dba509d12065da18, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: a507f34f68a05c645989be43059bf9e1, type: 2}
     - target: {fileID: 7441977270822091430, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_Name
       value: Phone stub
@@ -5579,8 +5571,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 4470356652380917118, guid: 72efff10932c6884dba509d12065da18, type: 3}
-    - {fileID: 8337067761992016549, guid: 72efff10932c6884dba509d12065da18, type: 3}
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
