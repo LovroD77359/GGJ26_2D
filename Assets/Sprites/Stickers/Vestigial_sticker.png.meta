@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 55243e0e94a4b034faf2ccfff37cb9be
+guid: 59206deda0070cb49895d8bcf15bc136
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5637026689987178075
-    second: Cheese_sticker_0
+      213: -1772229232460812193
+    second: Vestigial_sticker_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cheese_sticker_0
+      name: Vestigial_sticker_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5ee41688edba3e40800000000000000
-      internalID: 5637026689987178075
+      spriteID: f503c9a17e6c767e0800000000000000
+      internalID: -1772229232460812193
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vestigial_sticker_0: -1772229232460812193
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

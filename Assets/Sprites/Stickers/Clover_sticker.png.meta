@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7c564d22414b05844bc458ba445d2d98
+guid: b6c348c88afb87f4e9cdb57896c1e7bd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 551725210441932401
-    second: Hearts_sticker_0
+      213: -515241339787794224
+    second: Clover_sticker_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hearts_sticker_0
+      name: Clover_sticker_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17ed40ed72f18a700800000000000000
-      internalID: 551725210441932401
+      spriteID: 0d82a583bbe79d8f0800000000000000
+      internalID: -515241339787794224
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Clover_sticker_0: -515241339787794224
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

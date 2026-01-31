@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Clerk_sticker_0: 3164622155396493837
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
