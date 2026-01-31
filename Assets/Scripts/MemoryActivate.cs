@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MemoryActivate : MonoBehaviour
 {
-    public Canvas MemoryCanvas;
+    public GameObject Memory;
     public float duration = 10f;
 
     private float timer = 0f;
@@ -13,7 +13,7 @@ public class MemoryActivate : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && !isActive)
         {
-            MemoryCanvas.enabled = true;
+            Memory.SetActive(true);
             isActive = true;
             if(!isFirstTime)            
                 RandomizePhone();
@@ -22,7 +22,7 @@ public class MemoryActivate : MonoBehaviour
         if (isActive) timer += Time.deltaTime;
         if (timer >= duration)
         {
-            MemoryCanvas.enabled = false;
+            Memory.SetActive(false);
             isActive = false;
             timer = 0f;
         }
