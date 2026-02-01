@@ -45,7 +45,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 0
+      path: 3147504307
       attribute: 0
       script: {fileID: 0}
       typeID: 212
@@ -84,4 +84,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0
+    functionName: PlayLoopingSFX
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 38c54d05504bd9449bb2eb74e65d5bc7, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
