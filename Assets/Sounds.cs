@@ -21,6 +21,15 @@ public class Sounds : MonoBehaviour
         looping = true;
     }
 
+    public void PlaySFX(AudioClip clip)
+    {
+
+        audioSource.loop = false;
+        audioSource.clip = clip;
+        audioSource.Play();
+        looping = false;
+    }
+
     public void StopSFX(AudioClip clip)
     {
         if (clip != audioSource.clip)
