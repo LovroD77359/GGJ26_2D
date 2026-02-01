@@ -7,10 +7,10 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Lovro dev.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+    guid: 00273e203346dda4da1f95b36d31e11f
+  - enabled: 0
     path: Assets/Scenes/Niksa dev.unity
-    guid: f8c6a84dc1598be4c82a61dc3bf6073b
+    guid: 68ed66776cf93654bbd63cb836b16ac7
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 0c97d8dfa3365eb42bca3c95e39bbd01
@@ -19,7 +19,10 @@ EditorBuildSettings:
     guid: d36c3a71b0d4f9942a1f28a6086b1bae
   - enabled: 1
     path: Assets/Scenes/Victory.unity
-    guid: 3d180f71d67c6764ebc42aa35a96fe4d
+    guid: 5772e9d2d8d1de4488455f1e52f9dafd
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 8eaeb050ec3a9f84f9c57600bc101b2c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
