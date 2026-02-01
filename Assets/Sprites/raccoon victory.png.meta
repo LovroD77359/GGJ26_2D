@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1470b0c8838f9f84483df9e9a83f364b
+guid: ce38854f3b39d4e42b75a798c49a7857
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -112,20 +112,20 @@ TextureImporter:
       name: raccoon victory_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 44
-        height: 48
+        x: 1
+        y: 2
+        width: 42
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cf551e306c38e9c47a9af01e58aacdf7
-      internalID: -1932475932
+      spriteID: 9dd5c8ed22438adf0800000000000000
+      internalID: -168827661659120167
       vertices: []
       indices: 
       edges: []
@@ -134,20 +134,20 @@ TextureImporter:
       name: raccoon victory_1
       rect:
         serializedVersion: 2
-        x: 44
-        y: 0
-        width: 44
-        height: 48
+        x: 45
+        y: 2
+        width: 42
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 891ab8dc77b628846b81b9da1011f5c2
-      internalID: 297011632
+      spriteID: 61fd4a29d48d8deb0800000000000000
+      internalID: -4694764783849382122
       vertices: []
       indices: 
       edges: []
@@ -156,20 +156,20 @@ TextureImporter:
       name: raccoon victory_2
       rect:
         serializedVersion: 2
-        x: 88
-        y: 0
+        x: 89
+        y: 2
         width: 44
-        height: 48
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4a5ee0a7ad7932e4baa226b7cd985321
-      internalID: 36798629
+      spriteID: d75f73164b63a3c90800000000000000
+      internalID: -7189373706790505091
       vertices: []
       indices: 
       edges: []
@@ -178,20 +178,20 @@ TextureImporter:
       name: raccoon victory_3
       rect:
         serializedVersion: 2
-        x: 132
-        y: 0
-        width: 44
-        height: 48
+        x: 133
+        y: 3
+        width: 43
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 690f0807bb853b147a9fdfdb519f5bd1
-      internalID: 601246235
+      spriteID: 596c32bfde0668b90800000000000000
+      internalID: -7239992775714552171
       vertices: []
       indices: 
       edges: []
@@ -200,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c8a6a89789cf01e44b12ceb0ef73ea0c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -209,11 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      raccoon victory_0: -1932475932
-      raccoon victory_1: 297011632
-      raccoon victory_2: 36798629
-      raccoon victory_3: 601246235
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
