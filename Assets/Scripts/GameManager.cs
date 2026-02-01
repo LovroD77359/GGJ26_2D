@@ -19,10 +19,12 @@ public class GameManager : MonoBehaviour
     public int optionsPerTrait = 5;
 
     [HideInInspector] public int day = 0;
+    [HideInInspector] public bool firstMemory = true;
     [HideInInspector] public Dictionary<int, DialogueInfo> dialogue = new();
     [HideInInspector] public List<List<Material>> materials = new();
     [HideInInspector] public List<List<int>> phonesToSteal = new();
     [HideInInspector] public List<List<int>> phonesToStealOriginal = new();
+    [HideInInspector] public List<List<int>> phonesToStealOriginal2 = new();
     [HideInInspector] public List<List<int>> stolenPhones = new();
     [HideInInspector] public List<int> stolenPhoneIndexes = new();
     [HideInInspector] public Dialogue dialogueScript;
@@ -61,8 +63,10 @@ public class GameManager : MonoBehaviour
     public void Init()
     {
         day = 0;
+        firstMemory = true;
         phonesToSteal.Clear();
         phonesToStealOriginal.Clear();
+        phonesToStealOriginal2.Clear();
         stolenPhones.Clear();
         stolenPhoneIndexes.Clear();
 
@@ -85,14 +89,20 @@ public class GameManager : MonoBehaviour
             }
             phonesToSteal.Add(phone);
         }
-        phonesToStealOriginal = new List<List<int>>(phonesToSteal);
+        phonesToStealOriginal = new ();
+        phonesToStealOriginal2 = new();
+        foreach (List<int> phone in phonesToSteal)
+        {
+            phonesToStealOriginal.Add(new List<int>(phone));
+            phonesToStealOriginal2.Add(new List<int>(phone));
+        }
         LogPhones();
     }
 
     public void LogPhones()
     {
         // Logganje
-        foreach (List<int> phone in phonesToSteal)
+        foreach (List<int> phone in phonesToStealOriginal)
         {
             string s = "";
             foreach (int index in phone)
@@ -105,11 +115,31 @@ public class GameManager : MonoBehaviour
 
     public void CheckPhone(List<int> phone)
     {
-        var index = phonesToSteal.FindIndex(p => p.SequenceEqual(phone));
+        Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa");
+        string s = "";
+        foreach (int h in phone)
+        {
+            s += h.ToString() + " ";
+        }
+        Debug.Log(s);
+
+        // Logganje
+        foreach (List<int> a in phonesToStealOriginal)
+        {
+            s = "";
+            foreach (int indgex in a)
+            {
+                s += indgex.ToString() + " ";
+            }
+            Debug.Log(s);
+        }
+        var index = phonesToStealOriginal.FindIndex(p => p.SequenceEqual(phone));
         if (index >= 0)
         {
-            stolenPhones.Add(phonesToSteal[index]);
-            phonesToSteal.RemoveAt(index);
+            stolenPhones.Add(phonesToStealOriginal[index]);
+            var index2 = phonesToStealOriginal2.FindIndex(p => p.SequenceEqual(phone));
+            phonesToStealOriginal2.RemoveAt(index2);
+            phonesToSteal.RemoveAt(index2);
             stolenPhoneIndexes.Add(phonesToStealOriginal.FindIndex(p => p.SequenceEqual(phone)));
             animator.SetTrigger("success");
         }

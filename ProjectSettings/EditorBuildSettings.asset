@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 0c97d8dfa3365eb42bca3c95e39bbd01
+  - enabled: 1
     path: Assets/Scenes/Lovro dev.unity
     guid: 00273e203346dda4da1f95b36d31e11f
   - enabled: 0
     path: Assets/Scenes/Niksa dev.unity
     guid: 68ed66776cf93654bbd63cb836b16ac7
-  - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: 0c97d8dfa3365eb42bca3c95e39bbd01
   - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: d36c3a71b0d4f9942a1f28a6086b1bae

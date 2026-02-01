@@ -14,7 +14,8 @@ public class Home : MonoBehaviour
 
     void Start()
     {
-        GetComponent<Animator>().SetBool("win", GameManager.GM.DayEnd());
+        if (!isVictoryScreen)
+            GetComponent<Animator>().SetBool("win", GameManager.GM.DayEnd());
 
         for (int i = 0; i < GameManager.GM.stolenPhones.Count; i++)
         {

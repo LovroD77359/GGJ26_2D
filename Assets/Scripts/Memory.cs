@@ -11,7 +11,6 @@ public class Memory : MonoBehaviour
 
     private float timer = 0f;
     private bool isActive = false;
-    private bool isFirstTime = true;
 
     void Update()
     {
@@ -29,13 +28,13 @@ public class Memory : MonoBehaviour
     {
         if (isActive) return;  
 
-        if (!isFirstTime)
+        if (!GameManager.GM.firstMemory)
             RandomizePhone();
         UpdateMemory();
 
         GameManager.GM.animator.SetTrigger("memoryPanelAppear");
         isActive = true;
-        isFirstTime = false;
+        GameManager.GM.firstMemory = false;
     }
 
     void RandomizePhone()
