@@ -22,7 +22,7 @@ public class Memory : MonoBehaviour
         if (timer >= duration)
         {
             GameManager.GM.animator.SetTrigger("memoryPanelDisappear");
-            GameManager.GM.PlayDialogue(3);
+            GameManager.GM.PlayDialogue(4);
             isActive = false;
             timer = 0f;
         }

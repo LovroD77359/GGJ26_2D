@@ -6,8 +6,11 @@
         "repeatLines": [
             "Cmon..."
         ],
-        "endLines": [
-            "Alright, bye"
+        "failLines": [
+            "Nice try pal"
+        ],
+        "successLines": [
+            "Here ya go pal"
         ],
         "interruptLines": [
             "Hello?"

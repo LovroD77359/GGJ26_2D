@@ -8,10 +8,9 @@ using UnityEngine.InputSystem;
 
 public class Dialogue : MonoBehaviour
 {
-    private float repeatDialogueInterval = 30;
+    public float repeatDialogueInterval = 30;
     public GameObject dialogueBox;
     public TextMeshProUGUI textbox;
-    public event Action<int> OnDialogueEnded;
 
     private bool playingDialogue = false;
     private int dialogueLevel = 0;
@@ -47,10 +46,12 @@ public class Dialogue : MonoBehaviour
                 repeatDialogueTimestamp = Time.time;
                 break;
             case 2:
-                StartCoroutine(PlayLines(dialogue.endLines));
-                dialogueLevel = 2;
+                StartCoroutine(PlayLines(dialogue.failLines));
                 break;
             case 3:
+                StartCoroutine(PlayLines(dialogue.successLines));
+                break;
+            case 4:
                 StartCoroutine(PlayLines(dialogue.interruptLines));
                 break;
         }
@@ -82,8 +83,6 @@ public class Dialogue : MonoBehaviour
             GameManager.GM.PhoneDescribeStart();
             dialogueLevel++;
         }
-        else if (dialogueLevel == 2)
-            GameManager.GM.DayEnd();
 
         playingDialogue = false;
         dialogueBox.SetActive(false);
@@ -94,6 +93,7 @@ public class DialogueInfo
 {
     public List<string> startLines;
     public List<string> repeatLines;
-    public List<string> endLines;
+    public List<string> failLines;
+    public List<string> successLines;
     public List<string> interruptLines;
 }

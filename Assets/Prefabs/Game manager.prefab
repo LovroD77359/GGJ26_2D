@@ -44,12 +44,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdfb3366d2cd0c84a9564124c8cb85da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainScene: Lovro dev
+  victoryScene: Victory
   numberOfDays: 5
   numberOfTraits: 5
   optionsPerTrait: 5
-  damages: []
-  stickers: []
-  trinkets: []
   day: 0
   dialogueScript: {fileID: 0}
   animator: {fileID: 0}

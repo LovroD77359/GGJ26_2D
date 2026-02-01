@@ -12,7 +12,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager GM;
 
-    [Header("Numbers")]
+    public string mainScene;
+    public string victoryScene;
     public int numberOfDays = 5;
     public int numberOfTraits = 5;
     public int optionsPerTrait = 5;
@@ -52,12 +53,13 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         Init();
-        day = 0;
-        phonesToSteal.Clear();
     }
 
     public void Init()
     {
+        day = 0;
+        phonesToSteal.Clear();
+
         // Phone generation
         List<List<int>> traitsTaken = new();
         for (int i = 0; i < numberOfDays; i++)
@@ -100,11 +102,11 @@ public class GameManager : MonoBehaviour
         if (index >= 0)
         {
             phonesToSteal.RemoveAt(index);
-            animator.SetTrigger("win");
+            animator.SetTrigger("success");
         }
         else
         {
-            animator.SetTrigger("lose");
+            animator.SetTrigger("loss");
         }
     }
 
@@ -121,6 +123,14 @@ public class GameManager : MonoBehaviour
     public void DayEnd()
     {
         day++;
-        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+        if (day >= numberOfDays)
+        {
+            // Remove from memory ?
+            SceneManager.LoadSceneAsync(mainScene);
+        }
+        else
+        {
+            SceneManager.LoadScene(victoryScene);
+        }
     }
 }
