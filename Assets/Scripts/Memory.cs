@@ -39,7 +39,7 @@ public class Memory : MonoBehaviour
 
     void RandomizePhone()
     {
-        int randomPhone = Random.Range(0, GameManager.GM.numberOfDays);
+        int randomPhone = Random.Range(0, GameManager.GM.phonesToSteal.Count);
         int randomTrait = Random.Range(0, GameManager.GM.numberOfTraits);
 
         GameManager.GM.phonesToSteal[randomPhone][randomTrait] = 
@@ -53,27 +53,36 @@ public class Memory : MonoBehaviour
 
     void UpdateMemory()
     {
+        int ptsIndex = 0;
         for (int i = 0; i < GameManager.GM.numberOfDays; i++)
         {
             Transform phone = memoryPhones.transform.GetChild(i);
+            
+            if (GameManager.GM.stolenPhoneIndexes.Contains(i))
+            {
+                phone.gameObject.SetActive(false);
+                continue;
+            }
+
             for (int j = 0; j < GameManager.GM.numberOfTraits; j++)
             {
                 Transform trait = phone.GetChild(j);
                 if (trait.name == "Color")
                 {
-                    phone.GetComponent<MeshRenderer>().material = GameManager.GM.materials[GameManager.GM.phonesToSteal[i][0]][GameManager.GM.phonesToSteal[i][1]];
+                    phone.GetComponent<MeshRenderer>().material = GameManager.GM.materials[GameManager.GM.phonesToSteal[ptsIndex][0]][GameManager.GM.phonesToSteal[ptsIndex][1]];
                 }
                 else
                 {
                     for (int k = 0; k < trait.childCount; k++)
                     {
-                        if (k == GameManager.GM.phonesToSteal[i][j])
+                        if (k == GameManager.GM.phonesToSteal[ptsIndex][j])
                             trait.GetChild(k).gameObject.SetActive(true);
                         else
                             trait.GetChild(k).gameObject.SetActive(false);
                     }
                 }
             }
+            ptsIndex++;
         }
     }
 }
