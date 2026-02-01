@@ -22,10 +22,10 @@ public class GameManager : MonoBehaviour
     [HideInInspector] public Dictionary<int, DialogueInfo> dialogue = new();
     [HideInInspector] public List<List<Material>> materials = new();
     [HideInInspector] public List<List<int>> phonesToSteal = new();
+    [HideInInspector] public List<List<int>> stolenPhones = new();
     [HideInInspector] public Dialogue dialogueScript;
     [HideInInspector] public Animator animator;
 
-    private List<List<int>> stolenPhones = new();
 
     void Awake()
     {
