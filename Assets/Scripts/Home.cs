@@ -8,7 +8,7 @@ public class Home : MonoBehaviour
     public float scaleDifferenceFactor = 2f;
     public bool isVictoryScreen = false;
 
-    public Transform phoneToAdd;
+    private Transform phoneToAdd;
     private Vector3 originalPosition = new Vector3(-4.15f, 1.25f, 25);
     private Vector3 originalScale = Vector3.one * 0.35f;
 

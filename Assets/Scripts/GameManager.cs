@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     [HideInInspector] public List<List<Material>> materials = new();
     [HideInInspector] public List<List<int>> phonesToSteal = new();
     [HideInInspector] public List<List<int>> stolenPhones = new();
+    [HideInInspector] public List<int> stolenPhoneIndexes = new();
     [HideInInspector] public Dialogue dialogueScript;
     [HideInInspector] public Animator animator;
 
@@ -61,6 +62,7 @@ public class GameManager : MonoBehaviour
         day = 0;
         phonesToSteal.Clear();
         stolenPhones.Clear();
+        stolenPhoneIndexes.Clear();
 
         // Phone generation
         List<List<int>> traitsTaken = new();
@@ -105,6 +107,7 @@ public class GameManager : MonoBehaviour
         {
             stolenPhones.Add(phonesToSteal[index]);
             phonesToSteal.RemoveAt(index);
+            stolenPhoneIndexes.Add(index);
             animator.SetTrigger("success");
         }
         else
@@ -127,10 +130,8 @@ public class GameManager : MonoBehaviour
     {
         day++;
         if (day >= numberOfDays)
-        {
-            // Remove from memory ?
             return true;
-        }
-        else return false;
+        else
+            return false;
     }
 }
