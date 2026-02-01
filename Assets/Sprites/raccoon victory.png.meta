@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      raccoon victory_0: -168827661659120167
+      raccoon victory_1: -4694764783849382122
+      raccoon victory_2: -7189373706790505091
+      raccoon victory_3: -7239992775714552171
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
