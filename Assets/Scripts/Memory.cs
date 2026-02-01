@@ -52,13 +52,12 @@ public class Memory : MonoBehaviour
         GameManager.GM.LogPhones();
     }
 
-    void UpdateMemory()
+    public void UpdateMemory()
     {
         int ptsIndex = 0;
         for (int i = 0; i < GameManager.GM.numberOfDays; i++)
         {
             Transform phone = memoryPhones.transform.GetChild(i);
-            Debug.Log(ptsIndex);
 
             if (GameManager.GM.stolenPhoneIndexes.Contains(i))
             {
@@ -71,7 +70,6 @@ public class Memory : MonoBehaviour
                 Transform trait = phone.GetChild(j);
                 if (trait.name == "Color")
                 {
-                    Debug.Log("AAAAAA");
                     phone.GetComponent<MeshRenderer>().material = GameManager.GM.materials[GameManager.GM.phonesToSteal[ptsIndex][0]][GameManager.GM.phonesToSteal[ptsIndex][1]];
                 }
                 else
