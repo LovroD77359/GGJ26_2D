@@ -6,7 +6,7 @@ public class MainMenu : MonoBehaviour
     public GameObject tutorial, ButtonNext, ButtonPrevious, ButtonOkay, Panel1, Panel2;
     
     public void LoadScene(string sceneName)
-    {
+    {   
         SceneManager.LoadSceneAsync(sceneName);
     }
         
@@ -28,6 +28,7 @@ public class MainMenu : MonoBehaviour
         ButtonPrevious.SetActive(true);
         Panel1.SetActive(false);
         ButtonNext.SetActive(false);
+
     }
 
     public void TutorialPreviousPanel()
@@ -36,6 +37,7 @@ public class MainMenu : MonoBehaviour
         ButtonNext.SetActive(true);
         Panel2.SetActive(false);
         ButtonPrevious.SetActive(false);
+        ButtonOkay.SetActive(false);
     }
 
 }
