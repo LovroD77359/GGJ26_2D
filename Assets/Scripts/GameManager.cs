@@ -123,17 +123,14 @@ public class GameManager : MonoBehaviour
         animator.SetTrigger("phoneDescribeStart");
     }
 
-    public void DayEnd()
+    public bool DayEnd()
     {
         day++;
         if (day >= numberOfDays)
         {
             // Remove from memory ?
-            SceneManager.LoadSceneAsync(mainScene);
+            return true;
         }
-        else
-        {
-            SceneManager.LoadScene(victoryScene);
-        }
+        else return false;
     }
 }

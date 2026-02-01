@@ -29,5 +29,47 @@
         "interruptLines": [
             "Hello?"
         ]
+    },
+    "2": {
+        "startLines": [
+            "Hello! Tell about phone"
+        ],
+        "repeatLines": [
+            "Cmon..."
+        ],
+        "endLines": [
+            "Alright, bye"
+        ],
+        "interruptLines": [
+            "Hello?"
+        ]
+    },
+    "3": {
+        "startLines": [
+            "Hello! Tell about phone"
+        ],
+        "repeatLines": [
+            "Cmon..."
+        ],
+        "endLines": [
+            "Alright, bye"
+        ],
+        "interruptLines": [
+            "Hello?"
+        ]
+    },
+    "4": {
+        "startLines": [
+            "Hello! Tell about phone"
+        ],
+        "repeatLines": [
+            "Cmon..."
+        ],
+        "endLines": [
+            "Alright, bye"
+        ],
+        "interruptLines": [
+            "Hello?"
+        ]
     }
 }

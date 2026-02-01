@@ -13,6 +13,8 @@ public class Home : MonoBehaviour
 
     void Start()
     {
+        GetComponent<Animator>().SetBool("win", GameManager.GM.DayEnd());
+
         for (int i = 0; i < GameManager.GM.stolenPhones.Count; i++)
         {
             Transform phone = shelfPhones.GetChild(i);
@@ -57,8 +59,9 @@ public class Home : MonoBehaviour
 
     IEnumerator AddPhoneCoroutine()
     {
-        phoneToAdd.gameObject.SetActive(true);
+        phoneToAdd.GetChild(phoneToAdd.childCount - 1).gameObject.SetActive(true);
         phoneToAdd.position -= Vector3.forward;
+        phoneToAdd.gameObject.SetActive(true);
 
         Vector3 startScale = phoneToAdd.localScale;
         for (float i = 0; i < 30; i++)
@@ -68,13 +71,14 @@ public class Home : MonoBehaviour
         }
         phoneToAdd.localScale = originalScale / scaleDifferenceFactor;
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.25f);
+        phoneToAdd.GetChild(phoneToAdd.childCount - 1).gameObject.SetActive(false);
+        yield return new WaitForSeconds(0.25f);
 
         startScale = phoneToAdd.localScale;
         Vector3 startPosition = phoneToAdd.position;
         for (float i = 0; i < 60; i++)
         {
-            Debug.Log("POSITION: " + phoneToAdd.position.ToString());
             phoneToAdd.localScale = Vector3.Lerp(startScale, originalScale, i / 60);
             phoneToAdd.position = Vector3.Lerp(startPosition, originalPosition, i / 60);
             yield return new WaitForSeconds(0.0167f);
