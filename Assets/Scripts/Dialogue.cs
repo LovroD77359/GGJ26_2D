@@ -81,7 +81,7 @@ public class Dialogue : MonoBehaviour
                 yield return new WaitForSeconds(0.015f);
             }
             lineIndex++;
-            yield return new WaitForSeconds(Mathf.Max(2, textbox.text.Length / 6));
+            yield return new WaitForSeconds(Mathf.Max(2, textbox.text.Length / 8));
         }
 
         if (dialogueLevel == 0)

@@ -5900,7 +5900,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   memory: {fileID: 2028447770}
   memoryPhones: {fileID: 632768332}
-  duration: 10
+  duration: 15
 --- !u!114 &1534857757
 MonoBehaviour:
   m_ObjectHideFlags: 0
