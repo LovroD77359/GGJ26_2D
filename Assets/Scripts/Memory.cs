@@ -7,6 +7,7 @@ public class Memory : MonoBehaviour
     public GameObject memory;
     public Transform memoryPhones;
     public float duration = 10f;
+    public AudioSource backgroundMusic;
 
     private float timer = 0f;
     private bool isActive = false;
