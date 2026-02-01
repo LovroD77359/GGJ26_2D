@@ -6,7 +6,7 @@ public class Pause : MonoBehaviour
     public GameObject pauseMenu;
     public AudioSource backgroundMusic;
     private void Start()
-    {
+    {   
         backgroundMusic.Play();
     }
     void Update()
