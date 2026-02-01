@@ -14,10 +14,6 @@ public class Memory : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Remember();
-        }
         if (isActive) timer += Time.deltaTime;
         if (timer >= duration)
         {
