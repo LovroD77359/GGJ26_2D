@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      raccoon fedora_0: -4661303912066156890
+      raccoon fedora_1: -8053559086037047548
+      raccoon fedora_10: 3826307024454501440
+      raccoon fedora_11: -6973946228147641622
+      raccoon fedora_2: 5417173339794877940
+      raccoon fedora_3: -440317844324348009
+      raccoon fedora_4: -4208643458279189476
+      raccoon fedora_5: -631125385529379305
+      raccoon fedora_6: -4003899566884189842
+      raccoon fedora_7: -7735876059712533978
+      raccoon fedora_8: -929800145664867664
+      raccoon fedora_9: 2537632230008201056
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

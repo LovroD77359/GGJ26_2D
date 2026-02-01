@@ -756,7 +756,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: fc7a295c8b5d12548bf42b90f1cc900c, type: 3}
+  m_Texture: {fileID: 2800000, guid: dfc3aee02a4f1f84ba62f990045b35ea, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -4062,6 +4062,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 1013609535}
   backgroundMusic: {fileID: 0}
+  Main: {fileID: 0}
 --- !u!114 &1534857756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6472,11 +6473,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1534857754}
     m_Modifications:
-    - target: {fileID: 1680512498849591442, guid: 72efff10932c6884dba509d12065da18, type: 3}
+    - target: {fileID: 796172146781411216, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3047377372197017583, guid: 72efff10932c6884dba509d12065da18, type: 3}
+    - target: {fileID: 2488650607410243283, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -6508,11 +6509,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5156891965918713027, guid: 72efff10932c6884dba509d12065da18, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5836249614791565023, guid: 72efff10932c6884dba509d12065da18, type: 3}
+    - target: {fileID: 5623178727774836956, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -6522,17 +6519,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7441977270822091430, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8865835405517005030, guid: 72efff10932c6884dba509d12065da18, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 5d1fd8e75a20ec04c91f37cc4faffc93, type: 2}
-    - target: {fileID: 8865835405517005030, guid: 72efff10932c6884dba509d12065da18, type: 3}
-      propertyPath: 'm_Materials.Array.data[1]'
-      value: 
-      objectReference: {fileID: 2100000, guid: accabc4a5ab3abc4a96961b380b91e44, type: 2}
-    - target: {fileID: 9210381778925892172, guid: 72efff10932c6884dba509d12065da18, type: 3}
+    - target: {fileID: 8523719343119737206, guid: 72efff10932c6884dba509d12065da18, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}

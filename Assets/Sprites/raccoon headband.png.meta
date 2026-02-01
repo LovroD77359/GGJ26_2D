@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      raccoon headband_0: -3401538120465886322
+      raccoon headband_1: -8700137801513057130
+      raccoon headband_10: 2608247385503063297
+      raccoon headband_11: 4562936036523473471
+      raccoon headband_2: -4541945320999529700
+      raccoon headband_3: -7677059501504193182
+      raccoon headband_4: 3882795827485601061
+      raccoon headband_5: -9079415287671990480
+      raccoon headband_6: 4316493630057517976
+      raccoon headband_7: 5562791912726005682
+      raccoon headband_8: -3464310152785386131
+      raccoon headband_9: 8379547350664497011
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

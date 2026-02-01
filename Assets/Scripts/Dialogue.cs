@@ -47,9 +47,11 @@ public class Dialogue : MonoBehaviour
                 break;
             case 2:
                 StartCoroutine(PlayLines(dialogue.failLines));
+                dialogueLevel = 2;
                 break;
             case 3:
                 StartCoroutine(PlayLines(dialogue.successLines));
+                dialogueLevel = 3;
                 break;
             case 4:
                 StartCoroutine(PlayLines(dialogue.interruptLines));
@@ -75,7 +77,7 @@ public class Dialogue : MonoBehaviour
                 yield return new WaitForSeconds(0.015f);
             }
             lineIndex++;
-            yield return new WaitForSeconds(Mathf.Max(2, textbox.text.Length / 5));
+            yield return new WaitForSeconds(Mathf.Max(2, textbox.text.Length / 6));
         }
 
         if (dialogueLevel == 0)
