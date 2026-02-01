@@ -16,12 +16,13 @@ public class Dialogue : MonoBehaviour
     private int dialogueLevel = 0;
     private float repeatDialogueTimestamp = 0;
     private DialogueInfo dialogue;
+    private Coroutine dialogueCoroutine = null;
 
     void Start()
     {
         GameManager.GM.dialogueScript = this;
         GameManager.GM.animator = GetComponent<Animator>();
-        dialogue = GameManager.GM.dialogue[GameManager.GM.day];        
+        dialogue = GameManager.GM.dialogue[GameManager.GM.day];
     }
 
     void Update()
@@ -35,26 +36,29 @@ public class Dialogue : MonoBehaviour
         if (level == -1)
             level = dialogueLevel;
 
+        if (dialogueCoroutine != null && level != 1)
+            StopCoroutine(dialogueCoroutine);
+
         switch (level)
         {
             case 0:
-                StartCoroutine(PlayLines(dialogue.startLines));
+                dialogueCoroutine = StartCoroutine(PlayLines(dialogue.startLines));
                 GameManager.GM.animator.SetTrigger("playerIdle");
                 break;
             case 1:
-                StartCoroutine(PlayLines(dialogue.repeatLines));
+                dialogueCoroutine = StartCoroutine(PlayLines(dialogue.repeatLines));
                 repeatDialogueTimestamp = Time.time;
                 break;
             case 2:
-                StartCoroutine(PlayLines(dialogue.failLines));
+                dialogueCoroutine = StartCoroutine(PlayLines(dialogue.failLines));
                 dialogueLevel = 2;
                 break;
             case 3:
-                StartCoroutine(PlayLines(dialogue.successLines));
+                dialogueCoroutine = StartCoroutine(PlayLines(dialogue.successLines));
                 dialogueLevel = 3;
                 break;
             case 4:
-                StartCoroutine(PlayLines(dialogue.interruptLines));
+                dialogueCoroutine = StartCoroutine(PlayLines(dialogue.interruptLines));
                 break;
         }
     }
@@ -84,6 +88,7 @@ public class Dialogue : MonoBehaviour
         {
             GameManager.GM.PhoneDescribeStart();
             dialogueLevel++;
+            repeatDialogueTimestamp = Time.time;
         }
 
         playingDialogue = false;
