@@ -240,6 +240,7 @@ MonoBehaviour:
   shelfPhones: {fileID: 1843076852}
   phoneAppearPlaceholder: {fileID: 1065915186}
   scaleDifferenceFactor: 2
+  isVictoryScreen: 0
   phoneToAdd: {fileID: 368408010}
 --- !u!4 &169788131
 Transform:
@@ -269,7 +270,7 @@ Animator:
   m_GameObject: {fileID: 169788129}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5a055de1a9694a048bcf3d486d06e7a6, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5c2b479f612055b4bab37abac8c220d6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
