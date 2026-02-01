@@ -133,13 +133,12 @@ public class GameManager : MonoBehaviour
             }
             Debug.Log(s);
         }
-        var index = phonesToStealOriginal.FindIndex(p => p.SequenceEqual(phone));
+        var index = phonesToStealOriginal2.FindIndex(p => p.SequenceEqual(phone));
         if (index >= 0)
         {
-            stolenPhones.Add(phonesToStealOriginal[index]);
-            var index2 = phonesToStealOriginal2.FindIndex(p => p.SequenceEqual(phone));
-            phonesToStealOriginal2.RemoveAt(index2);
-            phonesToSteal.RemoveAt(index2);
+            stolenPhones.Add(phonesToStealOriginal2[index]);
+            phonesToStealOriginal2.RemoveAt(index);
+            phonesToSteal.RemoveAt(index);
             stolenPhoneIndexes.Add(phonesToStealOriginal.FindIndex(p => p.SequenceEqual(phone)));
             animator.SetTrigger("success");
         }
