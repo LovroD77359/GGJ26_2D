@@ -6,6 +6,7 @@ public class Home : MonoBehaviour
     public Transform shelfPhones;
     public Transform phoneAppearPlaceholder;
     public float scaleDifferenceFactor = 2f;
+    public bool isVictoryScreen = false;
 
     public Transform phoneToAdd;
     private Vector3 originalPosition = new Vector3(-4.15f, 1.25f, 25);
@@ -37,7 +38,7 @@ public class Home : MonoBehaviour
                 }
             }
 
-            if (i == GameManager.GM.stolenPhones.Count - 1)
+            if (!isVictoryScreen && i == GameManager.GM.stolenPhones.Count - 1)
             {
                 phoneToAdd = phone;
                 originalPosition = phone.position;
