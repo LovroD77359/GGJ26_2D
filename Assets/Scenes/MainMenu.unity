@@ -375,6 +375,7 @@ GameObject:
   - component: {fileID: 18120857}
   - component: {fileID: 18120856}
   - component: {fileID: 18120859}
+  - component: {fileID: 18120860}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -458,8 +459,8 @@ MonoBehaviour:
           m_StringArgument: Intro
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1186455224}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 18120860}
+        m_TargetAssemblyTypeName: StartInit, Assembly-CSharp
         m_MethodName: Init
         m_Mode: 1
         m_Arguments:
@@ -617,6 +618,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &18120860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18120854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cebf54ce28512c948952938b1f40eb69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &65996931
 GameObject:
   m_ObjectHideFlags: 0
@@ -2112,17 +2125,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 084dcde718bb30343a3d5c03b831ca92, type: 3}
---- !u!114 &1186455224 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1367615918956738036, guid: 084dcde718bb30343a3d5c03b831ca92, type: 3}
-  m_PrefabInstance: {fileID: 1186455223}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdfb3366d2cd0c84a9564124c8cb85da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1303993545
 GameObject:
   m_ObjectHideFlags: 0
@@ -2135,7 +2137,6 @@ GameObject:
   - component: {fileID: 1303993548}
   - component: {fileID: 1303993547}
   - component: {fileID: 1303993546}
-  - component: {fileID: 1303993551}
   - component: {fileID: 1303993550}
   m_Layer: 5
   m_Name: Canvas
@@ -2248,18 +2249,6 @@ MonoBehaviour:
   ButtonOkay: {fileID: 1690807713}
   Panel1: {fileID: 1956482465}
   Panel2: {fileID: 2114165736}
---- !u!114 &1303993551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1303993545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a55192f5913175f4481355e00272bff7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1577149472
 GameObject:
   m_ObjectHideFlags: 0
