@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      raccoon bow_0: -6364658330406527890
+      raccoon bow_1: -3454755881303251952
+      raccoon bow_10: 8021583294505091125
+      raccoon bow_11: 8168896761239591026
+      raccoon bow_2: 217184472035409085
+      raccoon bow_3: -1138783700949903765
+      raccoon bow_4: -6241668197691917966
+      raccoon bow_5: 1982190759856197864
+      raccoon bow_6: -5283589587414821884
+      raccoon bow_7: 2382515936171620781
+      raccoon bow_8: 4270328616998247722
+      raccoon bow_9: 3235255195766822293
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
