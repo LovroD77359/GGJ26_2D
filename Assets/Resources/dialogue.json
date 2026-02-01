@@ -1,16 +1,16 @@
 {
     "0": {
         "startLines": [
-            "Hello! Tell about phone"
+            "Hello! Did you lose your phone?"
         ],
         "repeatLines": [
-            "Cmon..."
+            "Still thinking?"
         ],
         "failLines": [
-            "Nice try pal"
+            "Nice try pal..."
         ],
         "successLines": [
-            "Here ya go pal"
+            "Here ya go pal."
         ],
         "interruptLines": [
             "Hello?"
@@ -18,16 +18,16 @@
     },
     "1": {
         "startLines": [
-            "Hello! Tell about phone"
+            "Hello! Did you lose your phone?"
         ],
         "repeatLines": [
-            "Cmon..."
+            "You okay pal?"
         ],
         "failLines": [
-            "Nice try pal"
+            "Nice try pal..."
         ],
         "successLines": [
-            "Here ya go pal"
+            "Here you go pal."
         ],
         "interruptLines": [
             "Hello?"
@@ -35,53 +35,53 @@
     },
     "2": {
         "startLines": [
-            "Hello! Tell about phone"
+            "Hello! Did you lose your phone?"
         ],
         "repeatLines": [
-            "Cmon..."
+            "A lot of phones are being claimed recently."
         ],
         "failLines": [
-            "Nice try pal"
+            "Nice try pal..."
         ],
         "successLines": [
-            "Here ya go pal"
+            "Here you go pal."
         ],
         "interruptLines": [
-            "Hello?"
+            "What are you thinking about?"
         ]
     },
     "3": {
         "startLines": [
-            "Hello! Tell about phone"
+            "Hello! Let me guess.. you lost a phone?"
         ],
         "repeatLines": [
-            "Cmon..."
+            "Hey... you look familiar..."
         ],
         "failLines": [
-            "Nice try pal"
+            "Nice try pal..."
         ],
         "successLines": [
-            "Here ya go pal"
+            "Well... here you go pal."
         ],
         "interruptLines": [
-            "Hello?"
+            "Are you planning something?"
         ]
     },
     "4": {
         "startLines": [
-            "Hello! Tell about phone"
+            "If you say you lost a phone, I'm going to lose it."
         ],
         "repeatLines": [
-            "Cmon..."
+            "Definiely something fishy's going on here..."
         ],
         "failLines": [
-            "Nice try pal"
+            "HA! Caught you!"
         ],
         "successLines": [
-            "Here ya go pal"
+            "Well... I guess that's all of them. Here you go pal."
         ],
         "interruptLines": [
-            "Hello?"
+            "I'm waiting pal!"
         ]
     }
 }
